@@ -10,7 +10,7 @@ Quacity
 4. [Demo](#demo)
 ***
 
-![App Screenshot](https://ibb.co/Cn4fd4n)
+![App Screenshot](https://i.ibb.co/P5JdpJ5/Quacity-home.jpg)
 
 ## General Info
 Quacity is single page application project that communicates the quality of life in various cities, through the help of an API, with 17 different scores and a final score.
@@ -24,7 +24,7 @@ API is Teleport.org and it's called by fetch request.
 - Web based
 - Natively responsive
 
-![App Screenshot 2](https://ibb.co/bHKZtX3)
+![App Screenshot 2](https://i.ibb.co/wJzXt4L/Quacity-working.jpg)
 
 ## Installation
 
