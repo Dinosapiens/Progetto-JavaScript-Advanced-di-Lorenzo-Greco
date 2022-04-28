@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' href='./css/styles.css'/>
+        <title>Quacity</title>
+    </head>
+
+    <body>
+        <script src="./js/index.js"></script>
+
+        <div class="text">
+                <h1 id="title">Quacity</h1>
+                <h3 id="subtitle">Your starting point.</h3>
+
+                <div id="main">
+                    <input id="bar" name="bar" type="text" placeholder="Search a city..."/>
+
+                    <!-- This script does the same action of "Go" button but with the enter key. -->
+                    <script>
+                        let input = document.getElementById("bar");
+                        input.addEventListener("keydown", function (e) {
+                                if (e.key === "Enter") {  
+                                validateInput();
+                            }
+                        });
+                    </script>
+
+                    <input type="button" id="button" value="Go" onclick="validateInput();">
+
+                </div>
+
+            <footer id="nome">
+                <p>Lorenzo Greco</p>
+                <a href="https://www.instagram.com/lorenzgram"><img src="./img/ig.png" alt="Instagram"></a>
+                <a href="https://www.linkedin.com/in/lorenzo-greco-27628579/"><img src="./img/linkedin.png" alt="Linkedin"></a>
+            </footer>
+        </div>
+    </body>
+</html>
